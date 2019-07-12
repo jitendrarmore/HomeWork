@@ -12,3 +12,20 @@ Output Exmaple :
 Company Name : Cumulus Networks, Inc
 MAC Address : 44:38:39:ff:ef:57
 ```
+```
+root@bd0da6dada5b:/opt/src/app# sh getMacAddressandCompanyName.sh "44:38:39:ff:ef:57"
+Company Name : Cumulus Networks, Inc
+MAC Address : 44:38:39:ff:ef:57
+```
+
+Docker Image location : https://hub.docker.com/r/jitendramore/cisco 
+
+
+1. This is with reference to discussion with then and got a clarity which state that need to be created following.
+
+  a. create a script which called a https://macaddress.io 
+  b. return a Company Name and associated Mac Address with it.
+  
+INPUT : Mac address and passing as an argument in scripts
+OUTPUT : Company Name that associated with Mac Address
+
