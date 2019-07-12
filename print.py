@@ -1,6 +1,5 @@
 import os
 import json
-from collections import Counter
 
 CN = 'companyName'
 
